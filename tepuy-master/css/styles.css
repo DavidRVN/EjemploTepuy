@@ -2113,7 +2113,7 @@ sup.tooltip {
 .box-text.example {
     max-width: none;
     margin: 15px auto;
-    background: #E5E5E6;
+    background: #FFFFFF;
     position: relative;
     padding: 20px;
     min-height: 100px;
@@ -2121,9 +2121,28 @@ sup.tooltip {
     box-shadow: none;
 }
 
-.box-cita{
-    background : #FFFFFF;
-font-family : Roboto;
-font-size : 13px;
-color : #333333;
+.subtitulo{
+    background: #E5E5E6 !important;
+}
+
+.subtitulo  > .title {
+
+    font-family : Roboto;
+    font-size : 30px;
+    color : #455A64;
+    padding-left: 10px;
+}
+
+.box-cita > .title {
+
+    font-weight: 300;
+    color : #FFFFFF;
+    background : #1C313A;
+    font-family : Roboto;
+    font-size : 25px;
+}
+.box-cita p{
+    font-family : Roboto;
+    font-size : 13px;
+    color : #333333;
 }
