@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background : #1C313A;
+    background-image: url(../content/bg_texture.png);
+}
+
+#body {
+    max-width: 968px;
+    margin: 20px auto;
+    position: relative;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+pre {
+    background:#F8F8FF;
+    border: #000 dashed 1px;
+    padding: 6px;
+    overflow: auto;
+}
+
+em {
+    color: #b24926;
+}
+
+button.general {
+    background-image : url(../content/icon_btn_intro.png);
+    background-repeat : no-repeat;
+    background : #1C313A;
+    box-shadow : 3.02px 3.02px 0px rgba(0, 0, 0, 0.2);
+    font-family : Roboto;
+    font-size : 16px;
+    font-weight: 500;
+    color : #FFFFFF;
+    opacity : 100%; /*Opacidad del ícono y el texto*/
+    width: 180px;
+    height: 50px;
+
+}
+
+button.general.active, button.general:hover {
+    opacity:0.5;
+}
+
+#content {
+    padding: 15px;
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px #c9c9c9;
+    background-color: #fff;
+}
+
+#play_scorm {
+    text-align: center;
+}
+
+.ui-state-error, .ui-state-highlight {
+    padding: 10px;
+}
+
+@media (max-width:750px) {
+    #body {
+        width: 95%;
+    }
+
+    #play_scorm {
+        max-width: 100%;
+    }
+}
+
+/*
+
+    NUEVOS ESTILOS
+    
+    */
+
+    .ova{
+        background : #ACBCCC;
+        box-shadow : 6.42px 6.42px 0px rgba(0, 0, 0, 0.2);
+        font-family : Roboto;
+        font-size : 33px;
+        color : #1C313A;
+        width: 100%;
+        height: 890px;
+        position: absolute;
+        top: 26px;
+    }
+    .ova h1{
+        margin: 10px;
+    }
+
+    .dur{
+       background : #455A64;
+       box-shadow : 6.8px 6.8px 0px rgba(0, 0, 0, 0.2);
+       color : #FFFFFF;
+       width: 100%;
+       height: 825px;
+       position: absolute;
+       left: -50px;
+       top: 90px;
+   }
+
+}
+
+.dur h2{
+   font-family : Roboto;
+   font-size : 20px;
+   margin: 13px;
+}
+
+.contenido{
+    width: 100%;
+    height: 763px;
+    position: absolute;
+    left: -15%;
+    top: 150px;
+    background: #788595;
+    box-shadow : 6.8px 6.8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.contenido img{
+    padding-top: 190px;
+    width: 455px;
+    float: left;
+}
+
+.contenido p{
+    float: unset;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+    padding-top: 26%;
+    width: 98%;
+}
