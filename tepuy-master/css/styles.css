@@ -2509,3 +2509,49 @@ footer{
     left: 175px;
     top: 8px;
 }
+
+/********* box_example ********/
+.box-text.example.cita {
+    max-width: none;
+    margin: 15px auto;
+    padding-top: 30px;
+    box-shadow: none;
+    border-radius: 0;
+    background:#E5E5E6;
+    color: #333333 !important;
+    padding: 0;
+}
+
+
+.box-text.example.cita {
+    max-width: none;
+    margin: 15px auto;
+    padding-top: 30px;
+    box-shadow: none;
+    border-radius: 0;
+    background:#E5E5E6;
+    color: #333333 !important;
+    padding: 0;
+}
+
+.box-text.example.cita .box_body{
+    background: #FFFFFF;
+    position: relative;
+    padding: 5px 20px 10px;
+}
+.box-text.example.cita .box_body p{
+    text-align: justify;
+    padding-left: 50px;
+}
+
+.box-text.example.cita .title{
+    font-weight: 300;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 25px;
+    height: 40px;
+    padding-left: 49px;
+    padding-top: 4px;
+    margin: 0;
+    background: #1C313A url(../content/sprite_text.png) no-repeat 13px 6px;
+}
