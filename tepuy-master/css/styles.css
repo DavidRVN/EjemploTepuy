@@ -2085,19 +2085,31 @@ sup.tooltip {
     color : #ACBCCC;
     width: 300px;
 }
+
+/* MAIN*/
+
+main{
+    background-color:rgb(229, 229, 230);
+    border-radius: 0;
+    box-shadow: none;;
+}
+
+
+
+
 .nombreOVA{
 
     border-bottom:solid #788595 1px;
-    font-family : Roboto;
+    font-family:Roboto;
     font-size : 35px;
     color : #455A64;
 
 }
 
 .textointro{
-    font-family : Roboto;
+    font-family:Roboto;
     font-size : 13px;
-    line-height : 20px;
+    line-height: 20px;
     color : #333333;
 }
 .link_intro a{
@@ -2120,7 +2132,7 @@ sup.tooltip {
 
 .subtitulo  > .title {
 
-    font-family : Roboto;
+    font-family:Roboto;
     font-size : 30px;
     color : #455A64;
     padding-left: 10px;
@@ -2137,7 +2149,7 @@ sup.tooltip {
     padding-top: 4px;
 }
 .box-cita p{
-    font-family : Roboto;
+    font-family:Roboto;
     font-size : 13px;
     color : #333333;
 }
@@ -2184,7 +2196,7 @@ sup.tooltip {
     font-weight: 300;
     color : #FFFFFF;
     background: #e6953a;
-    font-family : Roboto;
+    font-family:Roboto;
     font-size : 25px;
     height: 40px;
     padding-left: 49px;
@@ -2458,4 +2470,19 @@ div.iconsound.active, button.iconsound.active {
     font-weight: 300;
     color : #005a75;
 
+}
+
+/*FOOTER*/
+
+footer{
+    background : #000000;
+    font-family : Roboto;
+    font-size : 25px;
+    color : #FFFFFF;
+}
+
+#page_number{
+    background-color: #000000;
+    font-size: 18px;
+    border-radius: 0;
 }
