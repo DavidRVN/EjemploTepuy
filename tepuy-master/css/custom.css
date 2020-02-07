@@ -65,6 +65,7 @@
     margin: 0;
 }
 
+
 #pag-textos-mouseover1 .contenido_sobre {
     padding: 10px;
     text-align: justify;
@@ -268,23 +269,23 @@
 }
 
 #pag-actividades-arrastrar1 .item_1 {
-     left: 50px;
+   left: 50px;
 }
 
 #pag-actividades-arrastrar1 .item_2 {
-     left: 150px;
+   left: 150px;
 }
 
 #pag-actividades-arrastrar1 .item_3 {
-     left: 250px;
+   left: 250px;
 }
 
 #pag-actividades-arrastrar1 .item_4 {
-     left: 350px;
+   left: 350px;
 }
 
 #pag-actividades-arrastrar1 .item_5 {
-     left: 450px;
+   left: 450px;
 }
 
 /********************************************************************************/
@@ -652,4 +653,40 @@
     height: 40px;
     padding: 3%;
     border: 2px dotted #aaaaaa;
+}
+
+
+/* nuevos estilos */
+
+#pag-textos-mouseover1 .mouse-over-one .button {
+    border-radius: 45px;
+    width: 50px;
+    height: 50px;
+    border:none;
+    background: #1c313a;
+    font-size: 45px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+#pag-textos-mouseover1 .mouse-over-one .button:hover {
+    background: #f6ae00;
+    background: #e6953a;
+}
+
+#pag-textos-mouseover1 .contenido_sobre {
+    border: solid 1px #005a75;
+    box-shadow: none;;
+}
+
+.titulos{
+    font-weight: 300;
+    font-family : Roboto;
+    font-size : 35px;
+    color : #455A64;
+    border-bottom: none;;
+}
+
+.columnas{
+    border-right: 1px #b3b3b3 solid;
 }
