@@ -2522,18 +2522,6 @@ footer{
     padding: 0;
 }
 
-
-.box-text.example.cita {
-    max-width: none;
-    margin: 15px auto;
-    padding-top: 30px;
-    box-shadow: none;
-    border-radius: 0;
-    background:#E5E5E6;
-    color: #333333 !important;
-    padding: 0;
-}
-
 .box-text.example.cita .box_body{
     background: #FFFFFF;
     position: relative;
@@ -2555,3 +2543,67 @@ footer{
     margin: 0;
     background: #1C313A url(../content/sprite_text.png) no-repeat 13px 6px;
 }
+
+
+/* BLOQUE Ejemplo  */
+
+.box-text.example.ejemplo {
+    max-width: none;
+    margin: 15px auto;
+    padding-top: 30px;
+    box-shadow: none;
+    border-radius: 0;
+    background:#E5E5E6;
+    color: #333333 !important;
+    padding: 0;
+}
+
+.box-text.example.ejemplo .box_body{
+    background: #FFFFFF;
+    position: relative;
+    padding: 5px 20px 10px;
+}
+.box-text.example.ejemplo .box_body p{
+    text-align: justify;
+    padding-left: 50px;
+}
+
+.box-text.example.ejemplo .title{
+    font-weight: 300;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 25px;
+    height: 40px;
+    padding-left: 49px;
+    padding-top: 4px;
+    margin: 0;
+    background: #455A64 url(../content/sprite_text.png) no-repeat -96px 6px;
+}
+
+/*MENU Principal*/
+
+nav.horizontal ul.submenu > li {
+    font-family : Roboto;
+    padding: 10px 20px;
+    text-align: left;
+    list-style: none;
+    font-size: 13px;
+    background: #FFFFFF;
+    color : #4D4D4D;
+   border: solid #CCCCCC 1px;
+    cursor: pointer;
+    position: relative;
+    opacity : 0.9;
+box-shadow : 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+nav.horizontal ul.submenu > li.active, nav.horizontal ul.submenu > li.current {
+    background-color: #e6953a;;
+    color : #4D4D4D;
+}
+
+/*
+
+
+*/
+
