@@ -1899,7 +1899,7 @@ sup.tooltip {
 /* Default, system control*/
 .measuring-progress.default {
     float: left;
-    padding: 10px 0 0 10px;
+    padding: 20px 0 0 10px;
     display: flex;
     align-items: center;
     width: 150px;
@@ -2065,10 +2065,11 @@ sup.tooltip {
     #headerpg{
         width: 100%;
         height: 90px; 
-        background : #1C313A; 
+        background:  #1C313A;
         border-style : Solid; 
         border-color : #788595; 
         border-width : 2px;
+
     }
 
     #headerpg img{
@@ -2079,22 +2080,29 @@ sup.tooltip {
 
   .measuring-progress.default {
     float: right;
-    font-family : Roboto;
+    font-family:Roboto;
     font-weight : bold;
     font-size : 12px;
     color : #ACBCCC;
     width: 300px;
 }
 
-/* MAIN*/
+/* MAIN BODY*/
+
+body{
+    background-color:rgb(229, 229, 230);
+    font-family: Roboto;
+}
 
 main{
     background-color:rgb(229, 229, 230);
     border-radius: 0;
-    box-shadow: none;;
+    box-shadow: none;
+    border:0;
 }
-
-
+em{
+    color: #000000;
+}
 
 
 .nombreOVA{
@@ -2111,6 +2119,7 @@ main{
     font-size : 13px;
     line-height: 20px;
     color : #333333;
+    text-align: justify;
 }
 .link_intro a{
     color: #239cae;
@@ -2195,7 +2204,7 @@ main{
 .box-text.important .title {
     font-weight: 300;
     color : #FFFFFF;
-    background: #e6953a;
+    background: #e6953a url(../content/sprite_text.png) no-repeat -213px 4px;
     font-family:Roboto;
     font-size : 25px;
     height: 40px;
@@ -2225,12 +2234,12 @@ main{
 .box-text.note .title {
     font-weight: 300;
     color : #FFFFFF;
-    background : #005a75;;
     font-family : Roboto;
     font-size : 25px;
     height: 40px;
     padding-left: 49px;
     padding-top: 4px;
+    background: #005a75 url(../content/sprite_text.png) no-repeat -326px 4px;
 }
 
 /*LINKS*/
@@ -2259,13 +2268,13 @@ main{
 .box-text.link .title{
     font-weight: 300;
     color: #FFFFFF;
-    background: #239cae;
     font-family: Roboto;
     font-size: 25px;
     height: 40px;
     padding-left: 49px;
     padding-top: 4px;
     margin: 0;
+    background: #239cae url(../content/sprite_text.png) no-repeat -437px 6px;
 }
 
 /* PÁRRAFOS */
@@ -2328,7 +2337,6 @@ main{
 
 
 .box-text.activity .title{
-    background: #9cbd50;
     font-weight: 300;
     color: #FFFFFF;
     font-family: Roboto;
@@ -2337,6 +2345,7 @@ main{
     padding-left: 49px;
     padding-top: 4px;
     margin: 0;
+    background: #9cbd50 url(../content/sprite_text.png) no-repeat -546px 6px;
 }
 
 /* AUDIOS */
@@ -2485,4 +2494,18 @@ footer{
     background-color: #000000;
     font-size: 18px;
     border-radius: 0;
+}
+
+
+/* barra progreso */
+
+.measuring-progress.default progress{
+    height: 1em;
+    margin-left: 15px;
+}
+
+.measuring-progress.default label {
+    position: absolute;
+    left: 175px;
+    top: 8px;
 }
